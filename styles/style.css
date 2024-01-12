@@ -40,7 +40,7 @@
 #form__content {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
+    flex-grow: 2;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -70,7 +70,7 @@ header > h2 {
 
 #informations {
     width: 80%;
-    max-width: 350px;
+    max-width: 450px;
 }
 
 label {
@@ -143,7 +143,7 @@ img {
     display: flex;
     flex-direction: column;
     width: 80%;
-    max-width: 350px;
+    max-width: 450px;
     gap: 16px
 }
 
@@ -189,11 +189,7 @@ img {
 
 @media screen and (max-width: 764px) {
 
-    figure {
-        display: none;
-    }
-
-    #form__container > figure img {
+    #container > div > figure {
         display: none;
     }
 }
